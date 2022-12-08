@@ -268,7 +268,7 @@ a:focus-visible {
                  / 1fr 1fr;
   grid-area: 1 / 1 / -1 / -1;
   place-content: center;
-  padding: 1rem;
+  padding: .3rem;
   display: grid;
 }
 
@@ -290,7 +290,6 @@ a:focus-visible {
 }
 
 .slide__content p {
-  max-width: 260px;
   color: #ffffff80;
   grid-area: text;
   margin: 0;

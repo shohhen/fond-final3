@@ -288,7 +288,7 @@ a:focus-visible {
 	align-content: center;
 	justify-content: center;
 	display: grid;
-	padding: 1rem;
+	padding: .3rem;
 	grid-template-rows: auto auto auto;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2rem;
@@ -314,7 +314,6 @@ a:focus-visible {
 
 .slide__content p {
 	grid-area: text;
-	max-width: 260px;
 	line-height: 1.5;
 	margin: 0;
 	color: rgba(255,255,255,0.5);
