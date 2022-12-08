@@ -291,6 +291,7 @@ a:focus-visible {
 
 .slide__content p {
   color: #ffffff80;
+	max-width: 250px;
   grid-area: text;
   margin: 0;
   line-height: 1.5;
