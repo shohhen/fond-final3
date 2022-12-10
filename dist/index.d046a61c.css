@@ -287,14 +287,15 @@ a:focus-visible {
   font-size: clamp(3rem, 2vw, 3rem);
   font-weight: 200;
   line-height: 1;
+  max-width: 250px !important;
 }
 
 .slide__content p {
   color: #ffffff80;
-	max-width: 250px;
   grid-area: text;
   margin: 0;
   line-height: 1.5;
+  max-width: 250px !important;
 }
 
 .cursor {
