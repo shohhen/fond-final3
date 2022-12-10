@@ -363,6 +363,7 @@ a:focus-visible {
 	}	
 	.slide__content h2 {
 		width: 100%;
+		font-size: 12px;
 		
 	}
 	.slide__content p {

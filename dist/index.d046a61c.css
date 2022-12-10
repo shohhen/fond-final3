@@ -341,7 +341,12 @@ a:focus-visible {
     display: none !important;
   }
 
-  .slide__content h2, .slide__content p {
+  .slide__content h2 {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .slide__content p {
     width: 100%;
   }
 }
