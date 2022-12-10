@@ -327,8 +327,22 @@ a:focus-visible {
 }
 
 @media screen and (max-width: 600px) {
+  .slide__content {
+    grid-column-gap: none;
+    width: 100%;
+    flex-direction: row;
+    grid-template: none;
+    align-items: center;
+    font-size: smaller;
+    display: flex;
+  }
+
   .slide__content-img {
     display: none !important;
+  }
+
+  .slide__content h2, .slide__content p {
+    width: 100%;
   }
 }
 

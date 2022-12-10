@@ -347,8 +347,26 @@ a:focus-visible {
 }
 
 @media screen and (max-width: 600px) {
+	.slide__content {
+		grid-template-rows: none;
+		grid-template-columns: none;
+		grid-column-gap: none;
+		grid-template-areas: none;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		width: 100%;
+		font-size: smaller;
+	}
 	.slide__content-img {
 		display: none !important;
 	}	
+	.slide__content h2 {
+		width: 100%;
+		
+	}
+	.slide__content p {
+		width: 100%;
+	}
 }
 
