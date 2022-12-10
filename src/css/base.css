@@ -364,6 +364,7 @@ a:focus-visible {
 	.slide__content h2 {
 		width: 100%;
 		font-size: 12px;
+		font-weight: bold;
 		
 	}
 	.slide__content p {
