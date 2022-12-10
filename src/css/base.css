@@ -345,3 +345,10 @@ a:focus-visible {
 		grid-template-areas: 'img title' 'img text' 'img ...' ;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.slide__content-img {
+		display: none !important;
+	}	
+}
+

@@ -326,6 +326,12 @@ a:focus-visible {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .slide__content-img {
+    display: none !important;
+  }
+}
+
 .splitting.cells img {
   width: 100%;
   display: block;
